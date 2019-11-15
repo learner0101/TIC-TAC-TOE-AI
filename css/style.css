@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+body{
+ font-family: 'Fredericka the Great',cursive;
+  background-color:#191919;
+  border:solid;
+  border-color:#FFE4E1;
+  border-width:20px;
+
+}
+td{
+  font-size:50px;
+  text-align:center;
+  border: 10px solid;
+  color:#000;
+  height:100px;
+  width:100px;
+  cursor:pointer;
+}
+table{
+  top:20%;
+  border-collapse:collapse;
+  text-align:center;
+}
+tr:first-child td{
+  border-top:0px;
+}
+tr:last-child td{
+  border-bottom:0px;
+}
+td:first-child{
+  border-left:0px;
+}
+td:last-child{
+  border-right:0px;
+}
+.Board{
+  background-size:500px 500px;
+  background-repeat:no-repeat;
+  margin:auto;
+  padding:100px 100px 100px 100px;
+  width:500px;
+  height:500px;
+  text-align:center;
+  border:solid;
+  border-color:#000;
+  background-color:#FFEFD5;
+}
+.hide{
+  display:none;
+}
+.end-game{
+  display:block;
+  padding:20px;
+  background-color:#909;
+  color:#000;
+  height:200px;
+  width:200px;
+  opacity:0.98;
+  margin-top:-250px;
+  margin-left: 50px;
+  border-radius: 100px;
+  border:5px solid pink;
+  text-align:center;
+  font-weight:bold;
+  font-size:50px;
+}
+.footer {
+  margin-top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  text-align: center;
+}
